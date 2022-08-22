@@ -20,9 +20,10 @@ public class Main {
         list = parse.parseFileToList();
         flag = true;
         do {
-            System.out.print("Введите колонку из файла (от 1): ");
-            scanner = new Scanner(System.in);
-            n = scanner.nextInt();
+//            System.out.print("Введите колонку из файла (от 1): ");
+//            scanner = new Scanner(System.in);
+//            n = scanner.nextInt();
+            n = Integer.parseInt(args[0]);
             n--;
 
             System.out.print("Введите строку: ");
